@@ -1,0 +1,13 @@
+ImageEnhance.Contrast().enhance(10)
+can identified two digits
+
+
+
+ImageEnhance.Sharpness(x).enhance(10)
+ 092.
+
+
+ImageFilter.SHARPEN
+ 092.
+
+ImageFilter.EDGE_ENHANCE
