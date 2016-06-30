@@ -69,7 +69,7 @@ def denoise(image) :
     return img
 
 if __name__ == '__main__' :
-    x = Image.open('test.jpg')
+    x = Image.open('checkcode.jpg')
     x.load()
     x = denoise(x)
     x.save('c.jpg')

@@ -50,6 +50,20 @@ query_headers = {
                 "Referer":"http://www.5184.com/gk/check_index.html"
                }
 
+# feedback result
+wrong_checkcode = u"\u9a8c\u8bc1\u7801" # u"\u9a8c\u8bc1\u7801\u8f93\u5165\u9519\u8bef\uff01"
+busy_server = u"\u7e41\u5fd9" # u"\u670d\u52a1\u7e41\u5fd9\uff0c\u8bf7\u7a0d\u540e\u67e5\u8be2"
+success_feedback = u"student"
+# The 'bust_server' feedback is usually the same as 'Wrong birthay'
+
+# getScore configuration
+TIMES_TRY_CHECKCODE = 50
+TIMES_TRY_BIRTHDAY = 3
+
+# denoise configuration
 DX = [-1, -1, -1, 0, 0, 1, 1, 1]
 DY = [-1, 0, 1, -1, 1, -1, 0, 1]
 TIMES_DENOISE = 5
+
+# result file
+result_file = "spider.out"
